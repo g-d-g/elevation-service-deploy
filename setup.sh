@@ -17,4 +17,4 @@ sudo /etc/init.d/nginx restart
 sudo supervisorctl reload
 
 #test it
-curl http://localhost/status/
+curl -v http://localhost/status/
